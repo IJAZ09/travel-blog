@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta tag description -->
+    <meta name="Keywords" content="HTML,CSS">
+    <meta name="description" content="Ijaz on move travel blog">
+    <meta name="author" content="Ijaz Ul Haq">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linked external and Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Added loogo as favicon -->
+    <link rel="shortcut icon" href="images/Imgs.jpg" type="image/x-icon">
+    <title>Destination</title>
+</head>
+<body class="body">
+    <!-- added header before on top of navbar -->
+  <div>
+    <header class="hello">
+    <img class="logo" src="images/Imgs.jpg" alt="logo">
+    <h1>Your Journey Begins Here!</h1>
+    <p>Uncover the beauty of the world's most captivating destinations.</p>
+    </header>
+  </div>
+  <!-- Used bootstrap navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark body sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html" target="_blank">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="aboutus.html" target="_blank">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html" target="_blank">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link active" href="destination.html" target="_blank">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link " href="blogpage.html" target="_blank">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactus.html" target="_blank">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <br>
+     <!-- Carousel Section -->
+     <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="images/dessert.jpg" class="d-block w-100 c-image  hover-images hover-shadow" alt="desert">
+            <div class="carousel-caption">
+            <h1 class="display-1 fw-bolder text-capitalize  hover-images hover-shadow " >Journey Through the Sands</h1>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="images/wildlife.jpg" class="d-block w-100 c-image  hover-images hover-shadow " alt="wildlife">
+            <div class="carousel-caption">
+              <h1 class="display-1 fw-bolder text-capitalize  hover-images hover-shadow">Discover life beyond the horizon</h1>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="images/marrakech.jpg" class="d-block w-100 c-image  hover-images hover-shadow" alt="desert">
+            <div class="carousel-caption">
+              <h1 class="display-1 fw-bolder text-capitalize  hover-images hover-shadow">Moments shared, memories made</h1>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <br>
+       
+      
+      <!-- created div for explore distination-->
+      <div class="destinations">
+        <h2 class="destination-title ">Explore our Top Travel Destinations</h2>
+        <p class="destination-description">
+            Embark on a journey with us to some of the most breathtaking destinations around the world. From the golden sands of Morocco
+            to the tropical escapes of the Maldives, we bring you experiences that will inspire your next adventure. 
+            Explore vibrant cities, untouched nature, and serene beaches—all waiting for you to discover.
+        </p>
+        <!-- used grids to display images and text layout for responsive distinations -->
+        <div class="container">
+          <div class="row g-4">
+            <h2 class="destination-title ">Morocco: A Land of Adventure and Culture</h2>
+            <p class="destination-description">
+                Morocco offers a unique blend of history, culture, and natural beauty. From the vast Sahara Desert to the bustling souks of Marrakech,
+                it's a place where ancient traditions meet vibrant modern life.Experience camel treks across golden dunes, explore the stunning Atlas Mountains,
+                and immerse yourself in the rich Moroccan heritage.
+            </p>
+            <!-- 1 distinatin grid-->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="destination-item">
+                <img src="images/morocco.jpg" alt="Moroccan highlands" class="destination-image hover-shadow hover-rotate">
+                <p class="text hover-images hover-shadow">Moroccan Highlands</p>
+              </div>
+            </div>
+            <!-- 2 distination grid-->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="destination-item">
+                <img src="images/dessert.jpg" alt="desert" class="destination-image  hover-rotate hover-shadow">
+                <p class="text hover-images hover-shadow">Nomadic Procession</p>
+              </div>
+            </div>
+            <!-- 3 distination grid -->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="destination-item">
+                <img src="images/marrakech.jpg" alt="desert" class="destination-image  hover-rotate hover-shadow">
+                <p class="text hover-images hover-shadow">Dune Partners</p>
+              </div>
+            </div>
+            <h2 class="destination-title ">Maldives: Tropical Paradise</h2>
+            <p class="destination-description"> 
+                Escape to the Maldives, where crystal-clear waters meet powdery white beaches. With its vibrant coral reefs, 
+                luxurious overwater bungalows, and abundant marine life, the Maldives is the ultimate getaway for relaxation 
+                and adventure. Whether you're snorkeling in turquoise waters or lounging by the shore, paradise awaits.
+            </p>
+            <!-- 4 distination grid -->
+           <div class="col-12 col-sm-6 col-lg-4">
+            <div class="destination-item">
+              <img src="images/achraf-talha--3HoMcTLj94-unsplash.jpg" alt="beach" class="destination-image  hover-rotate hover-shadow">
+              <p class="text hover-images hover-shadow">Coastal Beauty</p>
+            </div>
+          </div>
+          <!-- 5 distination grid  -->
+          <div class="col-12 col-sm-6 col-lg-4">
+              <div class="destination-item">
+                <img src="images/beach.jpg" alt="Tropical beaches" class="destination-image  hover-rotate hover-shadow">
+                <p class="text hover-images hover-shadow">Tropical beaches</p>
+              </div>
+            </div>
+            <!-- 6 distination grid  -->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="destination-item">
+                <img src="images/island.jpg" alt="Islands" class="destination-image  hover-rotate hover-shadow">
+                <p class="text hover-images hover-shadow">Island Escape</p>
+              </div>
+            </div>
+           <h2 class="destination-title ">Africa: The Heart of the Wild</h2>
+           <p class="destination-description">
+            Venture into Africa's lush forests and vast savannas, home to some of the world's most incredible wildlife. 
+            From the majestic elephants of the Serengeti to the tranquil rainforests of the Congo, Africa offers an unmatched natural experience.
+            Whether on a safari or hiking through dense jungles, the sights, sounds, and wonders of Africa will leave you in awe.
+           </p>
+
+            <!--7 distination grid   -->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="destination-item">
+                <img src="images/forest.jpg" alt="forest" class="destination-image  hover-rotate hover-shadow">
+                <p class="text hover-images hover-shadow">Lush forests</p>
+              </div>
+            </div>
+            <!-- 8 distination grid  -->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="destination-item">
+                <img src="images/wildlife.jpg" alt="wildlife" class="destination-image  hover-rotate hover-shadow">
+                <p class="text hover-images hover-shadow">Wild Life</p>
+              </div>
+            </div>
+            <!--9 distination grid   -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="destination-item">
+              <img src="images/horse.jpg" alt="horse" class="destination-image  hover-rotate hover-shadow">
+              <p class="text hover-images hover-shadow">Animal Specie</p>
+            </div>
+          </div>
+          <h2 class="destination-title">USA: Coastal City Adventures</h2>
+          <p class="destinmation description">
+            From the iconic skyline of New York City to the laid-back vibes of Los Angeles, the USA's coastal cities offer something for everyone.
+            Explore world-renowned landmarks, relax on scenic beaches, and experience the vibrant cultures that define each coastal city. 
+            Whether you're strolling through Times Square or enjoying a sunset in California, adventure is always just around the corner.
+          </p>
+          <!-- 10 distination grid  -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="destination-item">
+              <img src="images/NYC.jpg" alt="New York City" class="destination-image  hover-rotate hover-shadow">
+              <p class="text hover-images hover-shadow">Vibrant City</p>
+            </div>
+          </div>
+          <!-- 11 distination grid   -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="destination-item">
+              <img src="images/island.jpg" alt="Island" class="destination-image  hover-rotate hover-shadow">
+              <p class="text hover-images hover-shadow">Tropical Island</p>
+            </div>
+          </div>
+          <!-- 12 distination grid  -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="destination-item">
+              <img src="images/miami.jpg" alt="miami" class="destination-image  hover-rotate hover-shadow">
+              <p class="text hover-images hover-shadow">Coastal city</p>
+            </div>
+          </div>
+
+        </div>
+      </div> <br>
+      <section class="travel-map">
+        <h2>Discover Our Featured Destinations on Google</h2>
+        <p>Explore a selection of our most captivating destinations through Google. 
+           Get an interactive preview of the landmarks, beauty, and unique experiences that await you.</p>
+        <br> <br>
+        <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1AKglbicitk74PnKMtmkgv4W09xhaqBM&ehbc=2E312F"></iframe>
+        </section>
+        <br>
+        <!-- Used Bootstrap Cards for testimonial -->
+        <div class="container my-5">
+            <h3 class="text-center mb-4">What Our Travelers Say</h3>
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">"The Maldives was a perfect escape! clear water, perfect sun-bath ad uforgettable memories. Higly reckon!"</p>
+                    <p class="card-footer  bg-warning">- Balqis Ayoub</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">"Visiting the Sahara Desert was an thrill of my life. The vastness and beauty of the dunes are beyond words!"</p>
+                    <p class="card-footer  bg-warning">- Harvey Specter</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">"I never imagined the charmness of the wildlife in Africa could be. The forests and safaris were incredible."</p>
+                    <p class="card-footer  bg-warning">- Racheal Zayn</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">"Hicking the Atlas mountains in Morocco was my life time adventure. Highly recommend!  "</p>
+                    <p class="card-footer  bg-warning">- Tom Mike</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">"I fall in love with Niagara Falls as it was stunning. Thanks to Ijaz on Move!"</p>
+                    <p class="card-footer bg-warning">- Donia Yaseen</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text">"Visiting the Sahara Desert was an thrill of my life. The vastness and beauty of the dunes are beyond words!"</p>
+                    <p class="card-footer bg-warning">- Stefen Noticia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+      
+      <hr>
+       <!-- footer -->
+  <div class="ijaz">
+    <footer>
+      
+      
+      <div class="container">
+        <div class="row">
+    <div class="col-12 col-md-6" style="float: left;">
+        <h2>Useful links</h2> <br>
+        <ul>
+        <li><a href="index.html" target="_blank">HOME</a></li>
+        <li><a href="gallery.html"target="_blank">GALLERY</a></li>
+        <li><a href="aboutus.html" target="_blank">ABOUT US</a></li>
+        <li><a href="contact.html" target="_blank">CONTACT US</a></li>
+        <li><a href="destination.html" target="_blank">DESTINATIONS</a></li>
+        <li><a href="blog.html" target="_blank">BLOG PAGE</a></li>
+        </ul>
+
+    </div>
+    <div class="col-12 col-md-6" style="float: right;"> follow us on our social for latest updates and travel plans <br> <br>
+      <ul>
+      <a href="https://www.facebook.com/" target="_blank"><img src="images/icons8-facebook-36.png" alt=""></a>
+      <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="images/icons8-instagram-36.png" alt=""></a>
+      <a href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJteCI6IjIifQ%3D%3D%22%7D" target="_blank"> <img src="images/icons8-twitter-36.png" alt=""></a>
+      </ul>
+
+      
+     
+    
+    
+  
+
+<section style="background-color: rgb(76, 76, 76);">
+  <h3>Stay Updated!</h3>
+  <p>Subscribe to receive the latest travel tips and destination updates.</p>
+  <form>
+    <input type="email" placeholder="Enter your email" required class="email">
+    <button type="submit" class="link">Subscribe</button>
+  </form>
+</section> <br></div></div> <hr>
+<p style="text-align: center;">&copy;2024 Ijaz on Move. All Rights Reserved.</p>  </footer>
+      
+   <!-- Attached JavaScript from Bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
+</html>
